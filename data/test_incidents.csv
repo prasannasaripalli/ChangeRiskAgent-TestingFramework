@@ -1,1 +1,5 @@
-
+incident_summary,root_cause,resolution
+Payment transactions failed after database schema migration,Schema change was not backward compatible,Rolled back database migration and added regression tests
+Users unable to login after authentication service upgrade,Token validation configuration mismatch,Restored previous config and added login smoke tests
+Dashboard label update caused no production impact,Frontend text-only change,No rollback required beyond redeploy
+Order API deployment caused validation failures,API contract mismatch with downstream system,Added contract tests and rollback validation

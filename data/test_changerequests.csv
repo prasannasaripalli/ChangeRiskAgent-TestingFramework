@@ -1,0 +1,5 @@
+service,change_type,description,risk_level
+Payment Service,Database Migration,Deploy database schema migration for payment transaction table,High
+Login Service,Version Upgrade,Upgrade authentication and login service version,Medium
+Dashboard UI,Text Update,Update help text label on internal dashboard,Low
+Order Service,API Deployment,Deploy new order validation API version,Medium
