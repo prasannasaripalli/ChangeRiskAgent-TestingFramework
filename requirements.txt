@@ -1,0 +1,14 @@
+streamlit
+python-dotenv
+pandas
+numpy
+faiss-cpu
+langchain-openai
+openai
+deepeval
+pytest
+pytest-html
+fastapi
+uvicorn
+httpx
+requests
